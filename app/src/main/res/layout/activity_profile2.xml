@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/wave"
+    android:orientation="vertical">
+
+    <androidx.cardview.widget.CardView
+        app:cardCornerRadius="134dp"
+        android:layout_width="wrap_content"
+        android:layout_height="200dp"
+        android:layout_marginLeft="110dp"
+        android:layout_marginTop="76dp"
+        android:layout_marginRight="110dp">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="230dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/img_20191206_wa0058" />
+    </androidx.cardview.widget.CardView>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textSize="34sp"
+            android:text="Shivam"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Varanasi, Uttar Pradesh"/>
+    </LinearLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:padding="16dp">
+
+        <TextView
+            android:id="@+id/text_view_phone_no"
+            android:layout_width="match_parent"
+            android:fontFamily="sans-serif-medium"
+            android:textColor="#272727"
+            android:layout_height="wrap_content"
+            android:layout_toStartOf="@id/card_view_image_container1"
+            tools:text="Phone No" />
+
+        <TextView
+            android:id="@+id/text_view_description1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-light"
+            android:textSize="14sp"
+            android:textColor="#777777"
+            android:layout_below="@+id/text_view_phone_no"
+            android:layout_marginTop="8dp"
+            android:layout_toStartOf="@id/card_view_image_container1"
+            android:text="8668019627"/>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/card_view_image_container1"
+            android:layout_width="160dp"
+            android:layout_height="match_parent"
+            android:layout_marginStart="12dp"
+            android:layout_alignParentEnd="true"
+            app:cardCornerRadius="16dp">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:id="@+id/image_view_call"
+                android:layout_height="match_parent"
+                android:scaleType="fitCenter"
+                android:src="@drawable/call" />
+
+        </androidx.cardview.widget.CardView>
+
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:padding="16dp">
+
+        <TextView
+            android:id="@+id/text_view_email"
+            android:layout_width="match_parent"
+            android:fontFamily="sans-serif-medium"
+            android:textColor="#272727"
+            android:layout_height="wrap_content"
+            android:layout_toStartOf="@id/card_view_image_container2"
+            tools:text="Email Id" />
+
+        <TextView
+            android:id="@+id/text_view_description2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-light"
+            android:textSize="14sp"
+            android:textColor="#777777"
+            android:layout_below="@+id/text_view_email"
+            android:layout_marginTop="8dp"
+            android:layout_toStartOf="@id/card_view_image_container2"
+            android:text="singhshivam00327@gmail.com"/>
+
+        <androidx.cardview.widget.CardView
+
+            android:id="@+id/card_view_image_container2"
+            android:layout_width="160dp"
+            android:layout_height="match_parent"
+            android:layout_marginStart="12dp"
+            android:layout_alignParentEnd="true"
+            app:cardCornerRadius="16dp">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:id="@+id/image_view_email"
+                android:layout_height="match_parent"
+                android:scaleType="fitCenter"
+                android:src="@drawable/email" />
+
+        </androidx.cardview.widget.CardView>
+
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:padding="16dp">
+
+        <TextView
+            android:id="@+id/text_view_address"
+            android:layout_width="match_parent"
+            android:fontFamily="sans-serif-medium"
+            android:textColor="#272727"
+            android:layout_height="wrap_content"
+            android:layout_toStartOf="@id/card_view_image_container3"
+            tools:text="Address" />
+
+        <TextView
+            android:id="@+id/text_view_description"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-light"
+            android:textSize="14sp"
+            android:textColor="#777777"
+            android:layout_below="@+id/text_view_address"
+            android:layout_marginTop="8dp"
+            android:layout_toStartOf="@id/card_view_image_container3"
+            android:text="Gram Shahpur Post Baragoan Varanasi Uttar pradesh 221204"/>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/card_view_image_container3"
+            android:layout_width="160dp"
+            android:layout_height="match_parent"
+            android:layout_marginStart="12dp"
+            android:layout_alignParentEnd="true"
+            app:cardCornerRadius="16dp">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:id="@+id/image_view_item_address"
+                android:layout_height="match_parent"
+                android:scaleType="fitCenter"
+                android:src="@drawable/location" />
+
+        </androidx.cardview.widget.CardView>
+
+
+    </RelativeLayout>
+
+
+
+
+
+
+
+</LinearLayout>
+
+    
+

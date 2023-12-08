@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:background="@drawable/wave"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginTop="20dp"
+        android:padding="16dp">
+
+        <TextView
+            android:id="@+id/text_view_name_first"
+            tools:text="VRPS"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toStartOf="@id/card_view_image_first"
+            android:fontFamily="sans-serif-medium"
+            android:textColor="#272727" />
+
+        <TextView
+            android:id="@+id/text_view_first"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/text_view_name_first"
+            android:layout_marginTop="8dp"
+            android:layout_toStartOf="@id/card_view_image_first"
+            android:fontFamily="sans-serif-light"
+            android:text="V.R Public School (2006-2014). "
+            android:textColor="#777777"
+            android:textSize="14sp" />
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/card_view_image_first"
+            app:cardCornerRadius="16dp"
+            android:layout_width="160dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="12dp">
+
+            <ImageView
+                android:id="@+id/image_view_first"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="fitCenter"
+                android:src="@drawable/vrps" />
+
+        </androidx.cardview.widget.CardView>
+
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginTop="20dp"
+        android:padding="16dp">
+
+        <TextView
+            android:id="@+id/text_view_phone_no"
+            tools:text="JJSIS"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toStartOf="@id/card_view_image_container1"
+            android:fontFamily="sans-serif-medium"
+            android:textColor="#272727" />
+
+        <TextView
+            android:id="@+id/text_view_description1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/text_view_phone_no"
+            android:layout_marginTop="8dp"
+            android:layout_toStartOf="@id/card_view_image_container1"
+            android:fontFamily="sans-serif-light"
+            android:text="Jaya Jaya Sankara International School (2014-2020). "
+            android:textColor="#777777"
+            android:textSize="14sp" />
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/card_view_image_container1"
+            app:cardCornerRadius="16dp"
+            android:layout_width="160dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="12dp">
+
+            <ImageView
+                android:id="@+id/image_view_call"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="fitCenter"
+                android:src="@drawable/jjsis" />
+
+        </androidx.cardview.widget.CardView>
+
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:padding="16dp">
+
+        <TextView
+            android:id="@+id/text_view_email"
+            android:layout_width="match_parent"
+            android:fontFamily="sans-serif-medium"
+            android:textColor="#272727"
+            android:layout_height="wrap_content"
+            android:layout_toStartOf="@id/card_view_image_container2"
+            tools:text="GKSVV" />
+
+        <TextView
+            android:id="@+id/text_view_description2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-light"
+            android:textSize="14sp"
+            android:textColor="#777777"
+            android:layout_below="@+id/text_view_email"
+            android:layout_marginTop="8dp"
+            android:layout_toStartOf="@id/card_view_image_container2"
+            android:text="G.K Shetty Vivekananda Vidyalaya (2020-2022). "/>
+
+        <androidx.cardview.widget.CardView
+
+            android:id="@+id/card_view_image_container2"
+            android:layout_width="160dp"
+            android:layout_height="match_parent"
+            android:layout_marginStart="12dp"
+            android:layout_alignParentEnd="true"
+            app:cardCornerRadius="16dp">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:id="@+id/image_view_email"
+                android:layout_height="match_parent"
+                android:scaleType="fitCenter"
+                android:src="@drawable/gksvv1" />
+
+        </androidx.cardview.widget.CardView>
+
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:padding="16dp">
+
+        <TextView
+            android:id="@+id/text_view_address"
+            android:layout_width="match_parent"
+            android:fontFamily="sans-serif-medium"
+            android:textColor="#272727"
+            android:layout_height="wrap_content"
+            android:layout_toStartOf="@id/card_view_image_container3"
+            tools:text="NITJ" />
+
+        <TextView
+            android:id="@+id/text_view_description"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-light"
+            android:textSize="14sp"
+            android:textColor="#777777"
+            android:layout_below="@+id/text_view_address"
+            android:layout_marginTop="8dp"
+            android:layout_toStartOf="@id/card_view_image_container3"
+            android:text="National Institute of Technology Jalandhar (2022)Present."/>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/card_view_image_container3"
+            android:layout_width="160dp"
+            android:layout_height="match_parent"
+            android:layout_marginStart="12dp"
+            android:layout_alignParentEnd="true"
+            app:cardCornerRadius="16dp">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:id="@+id/image_view_item_address"
+                android:layout_height="match_parent"
+                android:scaleType="fitCenter"
+                android:src="@drawable/nittj" />
+
+        </androidx.cardview.widget.CardView>
+
+
+    </RelativeLayout>
+
+
+</LinearLayout>
+

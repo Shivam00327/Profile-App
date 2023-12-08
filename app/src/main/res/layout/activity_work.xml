@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:background="@drawable/wave"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginTop="20dp"
+        android:padding="16dp">
+
+        <TextView
+            android:id="@+id/text_view_phone_no"
+            tools:text="Java Developer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toStartOf="@id/card_view_image_container1"
+            android:fontFamily="sans-serif-medium"
+            android:textColor="#272727" />
+
+        <TextView
+            android:id="@+id/text_view_description1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/text_view_phone_no"
+            android:layout_marginTop="8dp"
+            android:layout_toStartOf="@id/card_view_image_container1"
+            android:fontFamily="sans-serif-light"
+            android:text="A proficient java developer with several open source contribution."
+            android:textColor="#777777"
+            android:textSize="14sp" />
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/card_view_image_container1"
+            app:cardCornerRadius="16dp"
+            android:layout_width="160dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="12dp">
+
+            <ImageView
+                android:id="@+id/image_view_call"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="fitCenter"
+                android:src="@drawable/baseline_developer_mode_24" />
+
+        </androidx.cardview.widget.CardView>
+
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:padding="16dp">
+
+        <TextView
+            android:id="@+id/text_view_email"
+            android:layout_width="match_parent"
+            android:fontFamily="sans-serif-medium"
+            android:textColor="#272727"
+            android:layout_height="wrap_content"
+            android:layout_toStartOf="@id/card_view_image_container2"
+            tools:text="Android Developer" />
+
+        <TextView
+            android:id="@+id/text_view_description2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-light"
+            android:textSize="14sp"
+            android:textColor="#777777"
+            android:layout_below="@+id/text_view_email"
+            android:layout_marginTop="8dp"
+            android:layout_toStartOf="@id/card_view_image_container2"
+            android:text="Hands on experience on jetpack compose and kotlin."/>
+
+        <androidx.cardview.widget.CardView
+
+            android:id="@+id/card_view_image_container2"
+            android:layout_width="160dp"
+            android:layout_height="match_parent"
+            android:layout_marginStart="12dp"
+            android:layout_alignParentEnd="true"
+            app:cardCornerRadius="16dp">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:id="@+id/image_view_email"
+                android:layout_height="match_parent"
+                android:scaleType="fitCenter"
+                android:src="@drawable/android" />
+
+        </androidx.cardview.widget.CardView>
+
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:padding="16dp">
+
+        <TextView
+            android:id="@+id/text_view_address"
+            android:layout_width="match_parent"
+            android:fontFamily="sans-serif-medium"
+            android:textColor="#272727"
+            android:layout_height="wrap_content"
+            android:layout_toStartOf="@id/card_view_image_container3"
+            tools:text="DSA Instructor" />
+
+        <TextView
+            android:id="@+id/text_view_description"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-light"
+            android:textSize="14sp"
+            android:textColor="#777777"
+            android:layout_below="@+id/text_view_address"
+            android:layout_marginTop="8dp"
+            android:layout_toStartOf="@id/card_view_image_container3"
+            android:text="Teaching experience over a decade."/>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/card_view_image_container3"
+            android:layout_width="160dp"
+            android:layout_height="match_parent"
+            android:layout_marginStart="12dp"
+            android:layout_alignParentEnd="true"
+            app:cardCornerRadius="16dp">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:id="@+id/image_view_item_address"
+                android:layout_height="match_parent"
+                android:scaleType="fitCenter"
+                android:src="@drawable/baseline_code_24" />
+
+        </androidx.cardview.widget.CardView>
+
+
+    </RelativeLayout>
+
+
+</LinearLayout>
+
