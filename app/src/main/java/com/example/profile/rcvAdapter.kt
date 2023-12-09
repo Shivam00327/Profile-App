@@ -13,7 +13,7 @@ class rcvAdapter(val requiredContext: Context,private val data:ArrayList<data_cl
 
     class exampleViewHolder(itemView: View) :RecyclerView.ViewHolder(itemView) {
 
-        val name: TextView=itemView.findViewById(R.id.text_view_item_1)
+        val name1: TextView=itemView.findViewById(R.id.text_view_item_1)
 
     }
 
@@ -31,7 +31,7 @@ class rcvAdapter(val requiredContext: Context,private val data:ArrayList<data_cl
 
     override fun onBindViewHolder(holder: exampleViewHolder, position: Int) {
 
-        holder.name.text=data[position].name
+        holder.name1.text=data[position].name
 
     }
 }

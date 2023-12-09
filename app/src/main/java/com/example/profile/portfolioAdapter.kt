@@ -37,14 +37,9 @@ class portfolioAdapter(val requiredContext: Context, private val data:ArrayList<
 
     override fun onBindViewHolder(holder: exampleViewHolder, position: Int) {
 
-        val currentItem = data.getOrNull(position)
-        if (currentItem != null) {
-            holder.title.text = currentItem.name ?: "No Name"
-            holder.description.text = currentItem.description ?: "No Description"
-            holder.picture.setImageResource(currentItem.image)
-        } else {
-            Log.e("Adapter", "Item at position $position is null.")
-        }
+        holder.title.text=data[position].name
+        holder.description.text=data[position].description
+        holder.picture.setImageResource(data[position].image)
 
 
     }
