@@ -3,6 +3,7 @@
     android:layout_width="match_parent"
     android:layout_height="50dp"
     android:layout_margin="15dp"
+    android:background="@drawable/gradient"
     >
 
     <TextView
@@ -11,6 +12,5 @@
         android:text="@string/java"
         android:textSize="20sp"
         android:fontFamily="sans-serif-black"
-
         android:id="@+id/text_view_item_1"/>
 </LinearLayout>

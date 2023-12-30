@@ -18,7 +18,7 @@ class portfolioAdapter(val requiredContext: Context, private val data:ArrayList<
 
 
         val title: TextView =itemView.findViewById(R.id.text_view_project_title)
-        val description: TextView=itemView.findViewById(R.id.text_view_description)
+        val description: TextView=itemView.findViewById(R.id.text_view_project_description)
         val picture: ImageView=itemView.findViewById(R.id.image_view_project_icon)
 
     }

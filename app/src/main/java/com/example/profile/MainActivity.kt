@@ -14,7 +14,7 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
         val profile=findViewById<CardView>(R.id.card_view_profile)
         val work=findViewById<CardView>(R.id.card_view_work)
-        val skill=findViewById<CardView>(R.id.card_view_Skill)
+        val skill=findViewById<CardView>(R.id.card_view_skill)
         val education=findViewById<CardView>(R.id.card_view_education)
         val hobby=findViewById<CardView>(R.id.card_view_hobby)
         val portfolio=findViewById<CardView>(R.id.card_view_achievement)
